@@ -26,3 +26,5 @@ memory array can be configured either in bytes (x8b) or in words (x16b)."
 | `write(word address, word value)` | Write in specific location the value given  |
 | `erase(word address)` | Change memory location to `0xFFFF`|
 | `read(word address)` | Returns the value of the provided memory location|
+
+## Code Incorporated
