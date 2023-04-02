@@ -3,7 +3,7 @@ A complete library to use Microwire™  93XX EEPROM memories from  93X46 to 93X8
 # 93CXX Library for Arduino
 
  Read / Wirte Library for 16-Kbit, 8-Kbit, 4-Kbit, 2-Kbit and 1-Kbit (8-bit or 16-bit wide) MICROWIRE™
- 
+ ST M93C46-x 
 [Product overview](https://www.st.com/en/memories/m93c86-r.html#overview)
 
 ## Introduction
@@ -18,7 +18,7 @@ memory array can be configured either in bytes (x8b) or in words (x16b)."
 | Method |  Description |
 | ------ | ------ |
 | `Microwire name` | Constructor / Instance |
-| `setup(cs_clk,di,do)` |  `select the interface pins |
+| `setup(cs_clk,di,do)` |  Select the interface pins |
 | `wen()` | Enables Write, Erase and (Erase all) commands|
 | `wdis()`| Disables Write, Erase and (Erase all) commands  |
 | `eraseall()` | Erase all memory locations, all memory bits are set to  `1` |
