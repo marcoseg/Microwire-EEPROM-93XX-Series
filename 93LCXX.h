@@ -39,7 +39,6 @@ class Microwire{
         uint8_t _dout_pin;
         uint8_t _adrress;
         uint16_t _data;
-        uint8_t _data_low;
         uint8_t _bit_number;
         uint8_t _capacity;
         uint8_t _insBit;
