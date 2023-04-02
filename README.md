@@ -19,7 +19,7 @@ memory array can be configured either in bytes (x8b) or in words (x16b)."
 | ------ | ------ |
 | `Microwire name` | Constructor / Instance |
 | `setup(cs_clk,di,do)` |  `select the interface pins |
-| `wen()` | Enables Write, Erase / Erase all commands|
+| `wen()` | Enables Write, Erase and (Erase all) commands|
 | `wdis()`| Disables Write, Erase / Erase all commands  |
 | `eraseall()` | Erase all memory locations, all memory bits are set to  `1` |
 | `writeall(word value)` | Write all memory locations to the provided value |
