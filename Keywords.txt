@@ -1,0 +1,25 @@
+#######################################
+# Syntax Coloring Map 93LCXX
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Microwire	KEYWORD1	
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+#Member functions
+
+setup	    	KEYWORD2	
+config      	KEYWORD2
+wen 	    	KEYWORD2
+write	    	KEYWORD2
+wrall	   	KEYWORD2
+wrdis	    	KEYWORD2
+erase	    	KEYWORD2
+eraseall	KEYWORD2
+
