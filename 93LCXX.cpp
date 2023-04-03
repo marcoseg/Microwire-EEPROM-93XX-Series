@@ -195,7 +195,7 @@ void Microwire::sendBits(uint8_t dataPin,uint8_t clk,uint16_t value,uint8_t nbit
 switch (nbits)
 {
     case 8:
-        MASK=0x0010;
+        MASK=0x0080;
     break;
     case 9:
         MASK=0x0100;
