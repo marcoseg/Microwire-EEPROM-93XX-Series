@@ -31,4 +31,4 @@ memory array can be configured either in bytes (x8b) or in words (x16b)."
 ## Code Incorporated
 I took for Mr. benaeter, the code use in eeprom-programmer to display the memory data 
 in Arduino Serial Monitor.
-shiftIn and shiftOut were modified to send and recive more than 8 bits uisng a proper bit mask .
+shiftIn and shiftOut were modified to send and recieve more than 8 bits uisng a proper bit mask .
