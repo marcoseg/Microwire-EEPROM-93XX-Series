@@ -1,4 +1,4 @@
-# Microwire-EEPORM-93XX-Series
+# Microwire-EEPROM-93XX-Series
 A complete library to use Microwire™  93XX EEPROM memories from  93X46 to 93X86 in 8 or 16 bit data mode
 # 93CXX Library for Arduino
 
