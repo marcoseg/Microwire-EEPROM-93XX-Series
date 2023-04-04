@@ -191,7 +191,7 @@ void Microwire::eraseall()
 
 void Microwire::sendBits(uint8_t dataPin,uint8_t clk,uint16_t value,uint8_t nbits)
 { // Sending n Bits dependig size with variable MASK
-    digitalWrite(_clk_pin,LOW);
+    digitalWrite(clk,LOW);
 switch (nbits)
 {
     case 8:
