@@ -1,5 +1,12 @@
 #include <93LCXX.h>
 
+// The ESP32 detect the dummy bit (0) 
+#if defined(ARDUINO_ARCH_ESP32) 
+int _rcvBitw = 0;
+#endif
+#if defined(ARDUINO_ARCH_AVR) 
+int _rcvBitw = 1;
+#endif
 
 Microwire::Microwire()
 {
