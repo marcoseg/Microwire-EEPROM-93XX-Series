@@ -232,7 +232,7 @@ switch (nbits)
 
 uint16_t Microwire::recivedBits(uint8_t dataPin,uint8_t clk,uint8_t nbits)
 {   uint16_t value = 0x0000;   
-        for(int i = 1; i <= nbits; i++ ){
+        for(int i = _rcvBitw; i <= nbits; i++ ){
             digitalWrite(clk,HIGH);
             value |= digitalRead(dataPin) << (nbits - i);
             digitalWrite(clk,LOW);
